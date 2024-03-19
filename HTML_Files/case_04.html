@@ -5,9 +5,33 @@
     <title>case 04 / water drop</title>
 
     <style>
+        div{
+            border: solid 6px red;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
 
+            position: absolute;
+            animation: anime infinite 5s;
+        }
 
+        @keyframes anime {
+            from {
+                height: 30px;
+                aspect-ratio: 1/1;
+                border-radius: 100%;
+                transition-duration: 3s;
+            }
+            to{
+                height: 300px;
+                aspect-ratio: 1/1;
+                border-radius: 100%;
+                transition-duration: 3s;
+            }
 
+        }
 
 
     </style>
